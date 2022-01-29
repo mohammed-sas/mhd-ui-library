@@ -18,11 +18,11 @@
 
 .alert-error,.alert-error>*{
     background: var(--error-bg);
-    color: var(--error-text);
+    color: var(--red-700);
 }
 .alert-success, .alert-success>*{
     background: var(--success-bg);
-    color: var(--success-text);
+    color: var(--green-700);
 }
 .alert-warning, .alert-warning>*{
     background: var(--warning-bg);

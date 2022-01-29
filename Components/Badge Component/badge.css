@@ -1,4 +1,4 @@
-
+@import url('../../component.css');
 .badge{
     font-size: 3rem;
     width: 4rem;
@@ -7,7 +7,7 @@
 .badge-number{
     height: 2rem;
     width: 2rem;
-    color: white;
+    color: var(--color-white);
     text-align: center;
     position: absolute;
     top: -1rem;
@@ -18,7 +18,7 @@
     border-radius: 50%;
 }
 .badge-number span{
-    background: #9333ea;
+    background: var(--purple-600);
     font-size: 1.5rem;
     position: absolute;
     left:0;
@@ -59,11 +59,11 @@
     bottom:1rem;
 }
 .badge-online{ 
-    background-color: #15803d;
-    border: 3px solid black;   
+    background-color: var(--green-700);
+    border: 3px solid var(--black);  
 }
 .badge-busy{
-    background-color: #b91c1c;
+    background-color: var(--red-700);
     position: absolute;
-    border: 3px solid black; 
+    border: 3px solid var(--black); 
 }

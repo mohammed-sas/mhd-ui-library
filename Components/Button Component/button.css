@@ -1,0 +1,72 @@
+@import url('../../component.css');
+.btn{
+    padding:1.2rem 2rem;
+    color: var(--color-white);
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin:0 5px;
+}
+.btn-primary{
+    background: var(--purple-600);
+}
+.btn-primary:hover{
+   background: var(--purple-700);
+
+}
+
+.btn-secondary{
+    background: var(--color-white);
+    border:1px solid var(--purple-700);
+    color: var(--purple-700);
+}
+.btn-secondary:hover{
+    background: var(--purple-300);
+}
+.btn-disabled{
+    color: var(--gray-300);
+}
+.btn-link{
+    text-decoration: underline;
+    color: var(--sky-500);
+    background: #f7f7f7
+}
+.btn-link:focus{
+    border: 2px solid var(--sky-500);
+}
+.btn-icon{
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    background: var(--black);
+    font-size: 2rem;
+    margin: 0 1rem;
+    
+}
+.btn-icon i{
+    color:var(--purple-600);
+}
+.btn-icon:hover{
+    background: rgb(255 255 255 / 0.2);
+}
+
+.btn-icon:hover i{
+    background: rgb(255 255 255 / 0.01);
+}
+
+.btn-floating{
+    background: var(--purple-600);
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    margin: 0 1rem;
+}
+.btn-floating i{
+    color: var(--color-white);
+    background: inherit;
+    font-size: 2rem; 
+}
+.btn-floating:hover{
+    box-shadow:0 0 4rem rgb(255 255 255 / 0.6);
+}

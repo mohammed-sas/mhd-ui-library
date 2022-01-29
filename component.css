@@ -1,19 +1,23 @@
 :root{
     --color-white: white;
+    --gray-300:#d1d5db;
     --gray-500 : #6b7280;
+    --sky-500:#0ea5e9;
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     --black:black;
+    --purple-300:#d8b4fe;
     --purple-600:#9333ea;
+    --purple-700:#7e22ce;
     --error-bg:#fca5a5;
-    --error-text:#b91c1c;
     --success-bg:#86efac;
-    --success-text:#047857;
     --warning-bg:#fde047;
     --warning-text:#a16207;
     --info-bg:#7dd3fc;
     --info-text:#0369a1;
     --iframe-bg:#18181B;
+    --red-700:#b91c1c;
+    --green-700:#15803d;
 
 }
 
