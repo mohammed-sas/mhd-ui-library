@@ -1,0 +1,143 @@
+
+@import url('./component.css');
+*{
+    background:var(--black);
+    color:var(--color-white);
+}
+img{
+    max-inline-size: 100%;
+}
+/* typography */
+h1{
+    font-size: 3.2rem;
+    margin: 1rem 0;
+}
+h2{
+    font-size: 2.4rem;
+    margin: 1rem 0;
+}
+h3{
+    font-size: 1.8rem;
+    margin: 5px 0;
+}
+
+p{
+    font-size: 1.6rem;
+    line-height:1.6;
+}
+
+.docs-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:20rem 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    width: 100vw;
+    
+}
+
+nav,aside,main{
+    border:1px solid var(--gray-500);
+}
+
+/* main */
+main{
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    padding:0 1rem;
+    overflow-y: scroll;
+}
+main>section{
+    border-bottom: 2px solid var(--gray-500);
+}
+/* nav */
+nav{
+    grid-column:1/4 ;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    z-index: 1;
+    
+}
+.nav-brand{
+    width:5rem;
+    height:5rem;
+}
+.nav-links{
+    display: flex;
+    width: 20rem;
+    justify-content: space-around;
+}
+.nav-links i{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+/* aside */
+aside{
+    grid-column: 1/span 1;
+    overflow-y: scroll;
+    text-align: center;
+}
+.sidebar-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+aside .sidebar-btn{
+    font-size: 1.6rem;
+    display: none;
+}
+.sidebar-list{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+aside div span {
+    font-size: 1.6rem;
+    margin-top: 5px;
+    padding: 8px 0;
+}
+aside div span a{
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+    iframe{
+        display: none;
+    }
+    .docs-container{
+        display: grid;
+        height: 100vh;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        grid-template-areas:"navbar navbar"
+                            "sidebar sidebar" 
+                            "main main" ;
+    }
+    nav{
+        grid-area: navbar;
+    }
+    main{
+        grid-area: main;
+    }
+    aside{
+        grid-area: sidebar;
+    }
+    .sidebar-header i{
+        display: block;
+    }
+    .sidebar-list {
+        display: none;
+    }
+}
