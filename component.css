@@ -4,6 +4,8 @@
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     --black:black;
+    --teal-400:#2dd4bf;
+    --purple-400:#c084fc;
     --purple-600:#9333ea;
     --error-bg:#fca5a5;
     --error-text:#b91c1c;
