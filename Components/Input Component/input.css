@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+.input{
+    background: white;
+    border: none;
+    padding: 5px;
+    color: black;
+    font-size: 1.6rem;
+}
+label{
+    font-size: 1.6rem;
+}
+.invalid-input label i, .invalid-input label{
+    color: #dc2626;
+    font-size: 1.6rem;
+}
+.invalid-input label input{
+    margin: 5px 0;
+}
+.invalid-input p{
+    color: #dc2626;
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
+
+.valid-input label i, .valid-input label{
+    color: #15803d;
+    font-size: 1.6rem;
+}
+.valid-input label input{
+    margin: 5px 0;
+}
+.valid-input p{
+    color: #15803d;
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
