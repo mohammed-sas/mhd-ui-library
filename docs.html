@@ -8,6 +8,7 @@
   <title>Docs</title>
   <link rel="stylesheet" href="./Components/Avatar Component/avatar.css">
   <link rel="stylesheet" href="./Components/Alert Component/alert.css">
+  <link rel="stylesheet" href="./Components/Input Component/input.css">
   <link rel="stylesheet" href="docs.css">
   <link rel="icon" href="./images/MHD.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,6 +40,7 @@
         <span><a href="#avatar">Avatar</a></span>
         <span><a href="#alert">Alert</a></span>
         <span><a href="#image">Image</a></span>
+        <span><a href="#input">Input</a></span>
 
       </div>
     </aside>
@@ -155,6 +157,46 @@
         </div>
         <iframe src="https://carbon.now.sh/embed/SeZNaZNfODGNCjZusWZz" sandbox="allow-scripts allow-same-origin">
         </iframe>
+      </section>
+      <section id="input">
+        <h1>Input</h1>
+        <h2>Input text</h2>
+        <div class="example-container">
+          <label for="username">
+            Username
+            <br>
+            <input class="input" type="text" placeholder="Enter Username">
+          </label>
+        </div>
+        <h2>Input with error message</h2>
+        <div class="example-container">
+          <div class="invalid-input">
+            <label for="password">
+              Password <i class="fas fa-times-circle"></i>
+              <br>
+              <input class="input" type="password" placeholder="Enter Password">
+            </label>
+            <p>Invalid password. Try again</p>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/e6n7uQRmEiPtfvI4JssA" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+        <h2>Input with success message</h2>
+        <div class="example-container">
+          <div class="valid-input">
+            <label for="password">
+              Password <i class="fas fa-check-circle"></i>
+              <br>
+              <input class="input" type="password" value="12345678" placeholder="Enter Password">
+            </label>
+            <p>Valid password</p>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/tFvOq047tutZZneLOVlr" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </section>
     </main>
   </div>
