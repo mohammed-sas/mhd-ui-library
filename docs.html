@@ -1,217 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docs</title>
-    <link rel="stylesheet" href="./Components/Avatar Component/avatar.css">
-    <link rel="stylesheet" href="./Components/Alert Component/alert.css">
-    <link rel="stylesheet" href="./Components/Badge Component/badge.css">
-    <link rel="stylesheet" href="./Components/Button Component/button.css">
-    <link rel="stylesheet" href="docs.css">
-    <link rel="icon" href="./images/MHD.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs</title>
+  <link rel="stylesheet" href="./Components/Avatar Component/avatar.css">
+  <link rel="stylesheet" href="./Components/Alert Component/alert.css">
+  <link rel="stylesheet" href="./Components/Badge Component/badge.css">
+  <link rel="stylesheet" href="./Components/Button Component/button.css">
+  <link rel="stylesheet" href="docs.css">
+  <link rel="icon" href="./images/MHD.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
+
 <body>
-    <div class="docs-container">
-        <nav>
-            <div class="nav-brand">
-                <a href="./index.html"><img src="./images/MHD.png"alt=""></a>
-            </div>
-            <div class="nav-links">
-                <a target="_blank" href="https://www.linkedin.com/in/mohammed-ashraf-ba0a11133/"><i class="fab fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/mohammed-sas"><i class="fab fa-github"></i></a>
-                <a target="_blank" href="https://twitter.com/mhdsas"><i class="fab fa-twitter"></i></a>
-            </div>
-        </nav>
-        <aside>
-            <div class="sidebar-header">
-                <h2>Components</h2><i class="fas fa-chevron-down sidebar-btn"></i></i>
-            </div>
-            <div class="sidebar-list">
-                <span><a  href="#avatar">Avatar</a></span>
-                <span><a  href="#alert">Alert</a></span>
-                <span><a  href="#badge">Badge</a></span>
-                <span><a  href="#button">Button</a></span>
-            </div>
-        </aside>
-        <main>
-            <section id="avatar">
-                <h1>Avatar</h1>
-                <p>
-                  Avatars are used to create a visual associaton of the user. It's displayed next to the account name,
-                   posts and comments.Letter avatars are used in absence of user image.
-                </p>
-                <h2>Image Avatar</h3>
-                <div class="example-container">
-                  <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-sm">
-                  <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
-                  <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-lg">
-                  <br>
-                </div>
-                
-                  <iframe
-                    src="https://carbon.now.sh/embed/GmKBKs9IYZDsKRN48fq4"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                
-                <h2>Letter Avatar</h2>
-                <div class="example-container">
-                  <div class="container">
-                      <div class="avatar avatar-text"><span>AB</span></div>
-                      <div class="avatar avatar-text"><span>XY</span></div>
-                      <div class="avatar avatar-text"><span>EN</span></div>
-                  </div>
-                </div>
-                <br>
-                <iframe
-  src="https://carbon.now.sh/embed/OB24gsxyPaSO96iUhPzZ"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                <h2>Icon Avatar</h2>
-                <div class="example-container">
-                  <div class="container">
-                      <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-inbox"></i></span></div>
-                      <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-paper-plane"></i></span></div>
-                      <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-map-marker-alt"></i></span></div>
-                  </div>
-                </div>
-                <br>
-                <iframe
-  src="https://carbon.now.sh/embed/hCDbXwdEgU9hUS6VQOOe"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                
-            </section>
-            <section id="alert">
-                <h1>Alert</h1>
-                <p>Alerts are for user's attention  which carry important information that does not interfer 
-                  the user's task. Each alert has it's own significance
-                </p>
-                <div class="example-container">
-                  <div class="alert alert-error">
-                      <i class="fas fa-exclamation-circle"></i>
-                      <p>This is an error alert</p>
-                  </div>
-                  <div class="alert alert-success">
-                      <i class="fas fa-check-circle"></i>
-                      <p>This is a success alert</p>
-                  </div>
-                  <div class="alert alert-warning">
-                      <i class="fas fa-exclamation-triangle"></i>
-                      <p>This is a warning alert</p>
-                  </div>
-                  <div class="alert alert-info">
-                      <i class="fas fa-info-circle"></i>
-                      <p>This is an info alert</p>
-                  </div>
-                </div>
-                <iframe
-  src="https://carbon.now.sh/embed/15NIjxJIVS9nw6lOEOHn"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-            </section>
-            <section id="badge">
-              <h1>Badge</h1>
-              <p>Badges on an icon or avatar is used to depict the state of the respective items.Badges maybe 
-                numbers on an icon or solid colors on avatars.
-              </p>
-              <h2>Badge on icons</h2>
-              <div class="example-container">
-                <div class="container">
-                    <div class="badge">
-                        <i class="fas fa-envelope"></i>
-                        <div class="badge-number"><span>5</span></div>
-                    </div>
-                    <div class="badge badge-two-digit">
-                        <i class="fas fa-envelope"></i>
-                        <div class="badge-number"><span>99+</span></div>
-                    </div>
-                    <div class="badge badge-three-digit">
-                        <i class="fas fa-envelope"></i>
-                        <div class="badge-number"><span>999+</span></div>
-                    </div>
-                </div>
-              </div>
-              <iframe
-src="https://carbon.now.sh/embed/xpbmrkhok3eL3QSMPbAs"
-sandbox="allow-scripts allow-same-origin">
-</iframe>
-              <h2>Badge on avatars</h2>
-              <div class="example-container">
-                <div class="container">
-                    <div class="badge-avatar">
-                        <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
-                        <div class="badge-status badge-online"></div>
-                    </div>
-                    <div class="badge-avatar">
-                        <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
-                        <div class="badge-status badge-busy"></div>
-                    </div>
-                </div>
-              </div>
-              <iframe
-src="https://carbon.now.sh/embed/drCeQikuvuqoEPveQyIu"
-sandbox="allow-scripts allow-same-origin">
-</iframe>
-          </section>
-          <section id="button">
-            <h1>Button</h1>
-            <p>
-              Buttons are the elements that call user to actions. <br>
-              Primary button allow user to accomplish the common or important action. <br>
-              Secondary button indicates of action that are of less importance
-            </p>
-            <div class="example-container">
-              <button class="btn btn-primary">Primary</button>
-              <button class="btn btn-secondary">Secondary</button>
-              <button class="btn btn-disabled" disabled>Disabled</button>
-            </div>
+  <div class="docs-container">
+    <nav>
+      <div class="nav-brand">
+        <a href="./index.html"><img src="./images/MHD.png" alt=""></a>
+      </div>
+      <div class="nav-links">
+        <a target="_blank" href="https://www.linkedin.com/in/mohammed-ashraf-ba0a11133/"><i
+            class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/mohammed-sas"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://twitter.com/mhdsas"><i class="fab fa-twitter"></i></a>
+      </div>
+    </nav>
+    <aside>
+      <div class="sidebar-header">
+        <h2>Components</h2><i class="fas fa-chevron-down sidebar-btn"></i></i>
+      </div>
+      <div class="sidebar-list">
+        <span><a href="#avatar">Avatar</a></span>
+        <span><a href="#alert">Alert</a></span>
+        <span><a href="#badge">Badge</a></span>
+        <span><a href="#button">Button</a></span>
+      </div>
+    </aside>
+    <main>
+      <section id="avatar">
+        <h1>Avatar</h1>
+        <p>
+          Avatars are used to create a visual associaton of the user. It's displayed next to the account name,
+          posts and comments.Letter avatars are used in absence of user image.
+        </p>
+        <h2>Image Avatar</h3>
+          <div class="example-container">
+            <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-sm">
+            <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
+            <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-lg">
             <br>
-            <iframe
-src="https://carbon.now.sh/embed/WbxfufpLNudamdULsbkX"
-sandbox="allow-scripts allow-same-origin">
-</iframe>
-            <h2>Link button</h2>
-            <div class="example-container"><button class="btn btn-link">Link</button></div>
-            <br>
-            <iframe
-src="https://carbon.now.sh/embed/bY3Q8AatlMqzOSmKl5BU"
-sandbox="allow-scripts allow-same-origin">
-</iframe>
-            <h2>Icon button</h2>
-            <p>
-              Icon button has icons associated with corresponding call to action.
-            </p>
-            <div class="example-container">
-              <button class="btn-icon"><i class="fas fa-trash"></i></button>
-              <button class="btn-icon"><i class="fas fa-camera"></i></button>
+          </div>
+
+          <iframe src="https://carbon.now.sh/embed/GmKBKs9IYZDsKRN48fq4" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <h2>Letter Avatar</h2>
+          <div class="example-container">
+            <div class="container">
+              <div class="avatar avatar-text"><span>AB</span></div>
+              <div class="avatar avatar-text"><span>XY</span></div>
+              <div class="avatar avatar-text"><span>EN</span></div>
             </div>
-            <br>
-            <iframe
-src="https://carbon.now.sh/embed/LLQJxun9Z7nqYWZrufZY"
-sandbox="allow-scripts allow-same-origin">
-</iframe>
-            <h2>Floating action button</h2>
-            <p>
-              Floating action button floats througout the UI.It's commonly used in UI control and it performs
-              the most common UI action.
-            </p>
-            <div class="example-container">
-              <button class="btn-floating"><i class="fas fa-plus"></i></button>
-              <button class="btn-floating"><i class="fas fa-pencil-alt"></i></button>
+          </div>
+          <br>
+          <iframe src="https://carbon.now.sh/embed/OB24gsxyPaSO96iUhPzZ" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <h2>Icon Avatar</h2>
+          <div class="example-container">
+            <div class="container">
+              <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-inbox"></i></span></div>
+              <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-paper-plane"></i></span></div>
+              <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-map-marker-alt"></i></span></div>
             </div>
-            <iframe
-src="https://carbon.now.sh/embed/pGStzxiCdlxAwW3JMAXr"
-sandbox="allow-scripts allow-same-origin">
-</iframe>
-        </section>
-        </main>
-    </div>
+          </div>
+          <br>
+          <iframe src="https://carbon.now.sh/embed/hCDbXwdEgU9hUS6VQOOe" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+      </section>
+      <section id="alert">
+        <h1>Alert</h1>
+        <p>Alerts are for user's attention which carry important information that does not interfer
+          the user's task. Each alert has it's own significance
+        </p>
+        <div class="example-container">
+          <div class="alert alert-error">
+            <i class="fas fa-exclamation-circle"></i>
+            <p>This is an error alert</p>
+          </div>
+          <div class="alert alert-success">
+            <i class="fas fa-check-circle"></i>
+            <p>This is a success alert</p>
+          </div>
+          <div class="alert alert-warning">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>This is a warning alert</p>
+          </div>
+          <div class="alert alert-info">
+            <i class="fas fa-info-circle"></i>
+            <p>This is an info alert</p>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/15NIjxJIVS9nw6lOEOHn" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+      <section id="badge">
+        <h1>Badge</h1>
+        <p>Badges on an icon or avatar is used to depict the state of the respective items.Badges maybe
+          numbers on an icon or solid colors on avatars.
+        </p>
+        <h2>Badge on icons</h2>
+        <div class="example-container">
+          <div class="container">
+            <div class="badge">
+              <i class="fas fa-envelope"></i>
+              <div class="badge-number"><span>5</span></div>
+            </div>
+            <div class="badge badge-two-digit">
+              <i class="fas fa-envelope"></i>
+              <div class="badge-number"><span>99+</span></div>
+            </div>
+            <div class="badge badge-three-digit">
+              <i class="fas fa-envelope"></i>
+              <div class="badge-number"><span>999+</span></div>
+            </div>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/xpbmrkhok3eL3QSMPbAs" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Badge on avatars</h2>
+        <div class="example-container">
+          <div class="container">
+            <div class="badge-avatar">
+              <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
+              <div class="badge-status badge-online"></div>
+            </div>
+            <div class="badge-avatar">
+              <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
+              <div class="badge-status badge-busy"></div>
+            </div>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/drCeQikuvuqoEPveQyIu" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+      <section id="button">
+        <h1>Button</h1>
+        <p>
+          Buttons are the elements that call user to actions. <br>
+          Primary button allow user to accomplish the common or important action. <br>
+          Secondary button indicates of action that are of less importance
+        </p>
+        <div class="example-container">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-disabled" disabled>Disabled</button>
+        </div>
+        <br>
+        <iframe src="https://carbon.now.sh/embed/WbxfufpLNudamdULsbkX" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Link button</h2>
+        <div class="example-container"><button class="btn btn-link">Link</button></div>
+        <br>
+        <iframe src="https://carbon.now.sh/embed/bY3Q8AatlMqzOSmKl5BU" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Icon button</h2>
+        <p>
+          Icon button has icons associated with corresponding call to action.
+        </p>
+        <div class="example-container">
+          <button class="btn-icon"><i class="fas fa-trash"></i></button>
+          <button class="btn-icon"><i class="fas fa-camera"></i></button>
+        </div>
+        <br>
+        <iframe src="https://carbon.now.sh/embed/LLQJxun9Z7nqYWZrufZY" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Floating action button</h2>
+        <p>
+          Floating action button floats througout the UI.It's commonly used in UI control and it performs
+          the most common UI action.
+        </p>
+        <div class="example-container">
+          <button class="btn-floating"><i class="fas fa-plus"></i></button>
+          <button class="btn-floating"><i class="fas fa-pencil-alt"></i></button>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/pGStzxiCdlxAwW3JMAXr" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>
