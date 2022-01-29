@@ -31,10 +31,27 @@ p{
     height: 100vh;
     grid-template-columns:20rem 1fr 1fr;
     grid-template-rows: auto 1fr;
-    width: 100vw;
+    width: 98vw;
     
 }
-
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.example-container{
+    border:1px solid #27272a;
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 95%;
+}
+iframe{
+    width: 95%;
+    height: 16rem;
+    border: none;
+    background: #18181B;
+    margin: 1rem 0;
+    
+}
 nav,aside,main{
     border:1px solid var(--gray-500);
 }
@@ -57,7 +74,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 98vw;
     z-index: 1;
     
 }
