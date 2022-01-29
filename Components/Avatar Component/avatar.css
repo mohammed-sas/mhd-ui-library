@@ -1,0 +1,49 @@
+@import url('../../component.css');
+
+.container>*{
+    margin: 1rem;
+}
+img{
+    max-inline-size: 100%;
+}
+
+/* small avatar */
+.avatar{
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.avatar-sm{
+    width: 5rem;
+    height: 5rem; 
+}
+
+.avatar-md{
+    width:7rem;
+    height:7rem;
+}
+
+.avatar-lg{
+    width: 9rem;
+    height: 9rem;
+}
+.avatar-text{
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--purple-600);
+    text-align: center;
+    color: var(--color-white);
+    font-size: 1.5rem;
+    
+}
+.avatar-text span{
+    display: inline-block;
+    background-color: inherit;
+    padding-top: 1.5rem;
+    border-radius: 50%;
+}
+.avatar-icon i{
+    color:var(--color-white);
+    background-color: inherit;
+    font-size: 2rem;
+}
