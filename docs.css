@@ -48,7 +48,7 @@ iframe{
     width: 95%;
     height: 16rem;
     border: none;
-    background: #18181B;
+    background: var(--iframe-bg);
     margin: 1rem 0;
     
 }
@@ -88,7 +88,7 @@ nav{
     justify-content: space-around;
 }
 .nav-links i{
-    color: white;
+    color: var(--color-white);
     font-size: 2rem;
     cursor: pointer;
 }
