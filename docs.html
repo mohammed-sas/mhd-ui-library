@@ -1,147 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docs</title>
-    <link rel="stylesheet" href="./Components/Avatar Component/avatar.css">
-    <link rel="stylesheet" href="./Components/Alert Component/alert.css">
-    <link rel="stylesheet" href="./Components/Text Utility Component/text-utility.css">
-    <link rel="stylesheet" href="docs.css">
-    <link rel="icon" href="./images/MHD.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docs</title>
+  <link rel="stylesheet" href="./Components/Avatar Component/avatar.css">
+  <link rel="stylesheet" href="./Components/Alert Component/alert.css">
+  <link rel="stylesheet" href="./Components/Text Utility Component/text-utility.css">
+  <link rel="stylesheet" href="docs.css">
+  <link rel="icon" href="./images/MHD.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
+
 <body>
-    <div class="docs-container">
-        <nav>
-            <div class="nav-brand">
-                <a href="./index.html"><img src="./images/MHD.png"alt=""></a>
+  <div class="docs-container">
+    <nav>
+      <div class="nav-brand">
+        <a href="./index.html"><img src="./images/MHD.png" alt=""></a>
+      </div>
+      <div class="nav-links">
+        <a target="_blank" href="https://www.linkedin.com/in/mohammed-ashraf-ba0a11133/"><i
+            class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/mohammed-sas"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://twitter.com/mhdsas"><i class="fab fa-twitter"></i></a>
+      </div>
+    </nav>
+    <aside>
+      <div class="sidebar-header">
+        <h2>Components</h2><i class="fas fa-chevron-down sidebar-btn"></i></i>
+      </div>
+      <div class="sidebar-list">
+        <span><a href="#avatar">Avatar</a></span>
+        <span><a href="#alert">Alert</a></span>
+        <span><a href="#text-utility">Text utility</a></span>
+        <span><a href="#list">List</a></span>
+      </div>
+    </aside>
+    <main>
+      <section id="avatar">
+        <h1>Avatar</h1>
+        <p>
+          Avatars are used to create a visual associaton of the user. It's displayed next to the account name,
+          posts and comments.Letter avatars are used in absence of user image.
+        </p>
+        <h2>Image Avatar</h3>
+          <div class="example-container">
+            <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-sm">
+            <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
+            <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-lg">
+            <br>
+          </div>
+
+          <iframe src="https://carbon.now.sh/embed/GmKBKs9IYZDsKRN48fq4" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+          <h2>Letter Avatar</h2>
+          <div class="example-container">
+            <div class="container">
+              <div class="avatar avatar-text"><span>AB</span></div>
+              <div class="avatar avatar-text"><span>XY</span></div>
+              <div class="avatar avatar-text"><span>EN</span></div>
             </div>
-            <div class="nav-links">
-                <a target="_blank" href="https://www.linkedin.com/in/mohammed-ashraf-ba0a11133/"><i class="fab fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/mohammed-sas"><i class="fab fa-github"></i></a>
-                <a target="_blank" href="https://twitter.com/mhdsas"><i class="fab fa-twitter"></i></a>
+          </div>
+          <br>
+          <iframe src="https://carbon.now.sh/embed/OB24gsxyPaSO96iUhPzZ" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          <h2>Icon Avatar</h2>
+          <div class="example-container">
+            <div class="container">
+              <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-inbox"></i></span></div>
+              <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-paper-plane"></i></span></div>
+              <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-map-marker-alt"></i></span></div>
             </div>
-        </nav>
-        <aside>
-            <div class="sidebar-header">
-                <h2>Components</h2><i class="fas fa-chevron-down sidebar-btn"></i></i>
-            </div>
-            <div class="sidebar-list">
-                <span><a  href="#avatar">Avatar</a></span>
-                <span><a  href="#alert">Alert</a></span>
-            </div>
-        </aside>
-        <main>
-            <section id="avatar">
-                <h1>Avatar</h1>
-                <p>
-                  Avatars are used to create a visual associaton of the user. It's displayed next to the account name,
-                   posts and comments.Letter avatars are used in absence of user image.
-                </p>
-                <h2>Image Avatar</h3>
-                <div class="example-container">
-                  <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-sm">
-                  <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-md">
-                  <img src="./images/mhd-dp.jpeg" alt="avatar" class="avatar avatar-lg">
-                  <br>
-                </div>
-                
-                  <iframe
-                    src="https://carbon.now.sh/embed/GmKBKs9IYZDsKRN48fq4"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                
-                <h2>Letter Avatar</h2>
-                <div class="example-container">
-                  <div class="container">
-                      <div class="avatar avatar-text"><span>AB</span></div>
-                      <div class="avatar avatar-text"><span>XY</span></div>
-                      <div class="avatar avatar-text"><span>EN</span></div>
-                  </div>
-                </div>
-                <br>
-                <iframe
-  src="https://carbon.now.sh/embed/OB24gsxyPaSO96iUhPzZ"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                <h2>Icon Avatar</h2>
-                <div class="example-container">
-                  <div class="container">
-                      <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-inbox"></i></span></div>
-                      <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-paper-plane"></i></span></div>
-                      <div class="avatar avatar-text avatar-icon"><span><i class="fas fa-map-marker-alt"></i></span></div>
-                  </div>
-                </div>
-                <br>
-                <iframe
-  src="https://carbon.now.sh/embed/hCDbXwdEgU9hUS6VQOOe"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-                
-            </section>
-            <section id="alert">
-                <h1>Alert</h1>
-                <p>Alerts are for user's attention  which carry important information that does not interfer 
-                  the user's task. Each alert has it's own significance
-                </p>
-                <div class="example-container">
-                  <div class="alert alert-error">
-                      <i class="fas fa-exclamation-circle"></i>
-                      <p>This is an error alert</p>
-                  </div>
-                  <div class="alert alert-success">
-                      <i class="fas fa-check-circle"></i>
-                      <p>This is a success alert</p>
-                  </div>
-                  <div class="alert alert-warning">
-                      <i class="fas fa-exclamation-triangle"></i>
-                      <p>This is a warning alert</p>
-                  </div>
-                  <div class="alert alert-info">
-                      <i class="fas fa-info-circle"></i>
-                      <p>This is an info alert</p>
-                  </div>
-                </div>
-                <iframe
-  src="https://carbon.now.sh/embed/15NIjxJIVS9nw6lOEOHn"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-            </section>
-            <section id="text-utility">
-              <h1>Text Utility</h1>
-              <div class="example-container">
-                <h1>h1 - Heading</h1>
-                <h2>h2 - Heading</h2>
-                <h3>h3 - Heading</h3>     
+          </div>
+          <br>
+          <iframe src="https://carbon.now.sh/embed/hCDbXwdEgU9hUS6VQOOe" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+
+      </section>
+      <section id="alert">
+        <h1>Alert</h1>
+        <p>Alerts are for user's attention which carry important information that does not interfer
+          the user's task. Each alert has it's own significance
+        </p>
+        <div class="example-container">
+          <div class="alert alert-error">
+            <i class="fas fa-exclamation-circle"></i>
+            <p>This is an error alert</p>
+          </div>
+          <div class="alert alert-success">
+            <i class="fas fa-check-circle"></i>
+            <p>This is a success alert</p>
+          </div>
+          <div class="alert alert-warning">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>This is a warning alert</p>
+          </div>
+          <div class="alert alert-info">
+            <i class="fas fa-info-circle"></i>
+            <p>This is an info alert</p>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/15NIjxJIVS9nw6lOEOHn" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+      <section id="text-utility">
+        <h1>Text Utility</h1>
+        <div class="example-container">
+          <h1>h1 - Heading</h1>
+          <h2>h2 - Heading</h2>
+          <h3>h3 - Heading</h3>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/u1u0HHGMK4s7pKx8RpJL" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Grey Text</h2>
+        <div class="example-container">
+          <p class="grey-text">This is a grey text</p>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/pT6zCmJKzfb8JlhV8LwH" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Centered Text</h2>
+        <div class="example-container">
+          <p class="centered-text">In id molestie justo. Aliquam blandit risus lorem, quis bibendum enim dictum et.
+            Aliquam at tortor bibendum, posuere leo vel, venenatis libero. In pulvinar eget odio et auctor. Sed sit amet
+          </p>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/9TLDxvA2p36qIFVz1TUV" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+      <section id="list">
+        <h1>List</h1>
+        <h2>Unordered list</h2>
+        <p>
+          Unordered lists are those lists which are not numbered rather they have bullet points in different shapes.
+        </p>
+        <div class="example-container">
+
+          <div class="lists-container">
+            <ul>
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ul>
+            <ul class="list-style-square">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ul>
+            <ul class="list-style-circle">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ul>
+          </div>
+        </div>
+
+        <iframe src="https://carbon.now.sh/embed/HI4ICLCkwhsji8gil1u0" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2>Ordered list</h2>
+        <p>
+          Ordered lists are sorted on numerical order, alphabetical order or roman order.
+        </p>
+        <div class="example-container">
+          <div class="lists-container">
+            <ol>
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ol>
+            <ol class="list-style-upper-roman">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ol>
+            <ol class="list-style-upper-alpha">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ol>
+            <ol class="list-style-lower-roman">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ol>
+            <ol class="list-style-lower-alpha">
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ol>
+            <ol reversed>
+              <li>List item 1</li>
+              <li>List item 2</li>
+              <li>List item 3</li>
+            </ol>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/wfidAsnY5fuOPDp2bx7x" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Notification list</h2>
+        <div class="example-container">
+          <ul class="notification-lists">
+            <li>
+              <div class="notification-list-item">
+                <i class="fab fa-stack-overflow"></i>
+                <p>New message from Rohit</p>
               </div>
-              <iframe
-  src="https://carbon.now.sh/embed/u1u0HHGMK4s7pKx8RpJL"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-              <h2>Grey Text</h2>
-              <div class="example-container">
-                <p class="grey-text">This is a grey text</p>
+            </li>
+            <li>
+              <div class="notification-list-item">
+                <i class="fas fa-cloud-showers-heavy"></i>
+                <p>Weather Update : Isolated Thunderstorms expected</p>
               </div>
-              <iframe
-  src="https://carbon.now.sh/embed/pT6zCmJKzfb8JlhV8LwH"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-              <h2>Centered Text</h2>
-                <div class="example-container">
-                  <p class="centered-text">In id molestie justo. Aliquam blandit risus lorem, quis bibendum enim dictum et. Aliquam at tortor bibendum, posuere leo vel, venenatis libero. In pulvinar eget odio et auctor. Sed sit amet </p>
-                </div>
-                <iframe
-  src="https://carbon.now.sh/embed/9TLDxvA2p36qIFVz1TUV"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-            </section>
-        </main>
-    </div>
+            </li>
+            <li>
+              <div class="notification-list-item">
+                <i class="fab fa-google-drive"></i>
+                <p>File "image1.jpeg" has been uploaded</p>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+        <iframe src="https://carbon.now.sh/embed/HsgLK1EMiTP0Bls9Ln3Z" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+    </main>
+  </div>
 </body>
+
 </html>
