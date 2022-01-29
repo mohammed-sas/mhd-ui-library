@@ -124,7 +124,12 @@ aside div span a{
     text-decoration: none;
 }
 
-
+/* round-image */
+.image-round{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
 
 @media only screen and (max-width:600px){
     html{
