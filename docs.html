@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +12,7 @@
     <link rel="stylesheet" href="./Components//Card Component/card.css">
     <link rel="stylesheet" href="./Components/Badge Component/badge.css">
     <link rel="stylesheet" href="./Components/Button Component/button.css">
+     <link rel="stylesheet" href="./Components/Input Component/input.css">
     <link rel="stylesheet" href="docs.css">
     <link rel="icon" href="./images/MHD.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,28 +21,32 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 </head>
+
 <body>
-    <div class="docs-container">
-        <nav>
-            <div class="nav-brand">
-                <a href="./index.html"><img src="./images/MHD.png"alt=""></a>
-            </div>
-            <div class="nav-links">
-                <a target="_blank" href="https://www.linkedin.com/in/mohammed-ashraf-ba0a11133/"><i class="fab fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/mohammed-sas"><i class="fab fa-github"></i></a>
-                <a target="_blank" href="https://twitter.com/mhdsas"><i class="fab fa-twitter"></i></a>
-            </div>
-        </nav>
-        <aside>
-            <div class="sidebar-header">
-                <h2>Components</h2><i class="fas fa-chevron-down sidebar-btn"></i></i>
-            </div>
+  <div class="docs-container">
+    <nav>
+      <div class="nav-brand">
+        <a href="./index.html"><img src="./images/MHD.png" alt=""></a>
+      </div>
+      <div class="nav-links">
+        <a target="_blank" href="https://www.linkedin.com/in/mohammed-ashraf-ba0a11133/"><i
+            class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/mohammed-sas"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://twitter.com/mhdsas"><i class="fab fa-twitter"></i></a>
+      </div>
+    </nav>
+    <aside>
+      <div class="sidebar-header">
+        <h2>Components</h2><i class="fas fa-chevron-down sidebar-btn"></i></i>
+      </div>
             <div class="sidebar-list">
                 <span><a  href="#avatar">Avatar</a></span>
                 <span><a  href="#alert">Alert</a></span>
                 <span><a  href="#badge">Badge</a></span>
                 <span><a  href="#button">Button</a></span>
                 <span><a href="#card">Card</a></span>
+                <span><a href="#image">Image</a></span>
+                <span><a href="#input">Input</a></span>
 
             </div>
         </aside>
@@ -425,7 +432,95 @@ src="https://carbon.now.sh/embed/wKkDAEzBYnRFJ9oo7fj5"
 sandbox="allow-scripts allow-same-origin">
 </iframe>
           </section>
+           <section id="image">
+        <h1>Responsive Image</h1>
+        <h2>Density Switching</h2>
+        <p>
+          Density switching technique is used to load images on devices based on their DPR(Device Pixel Ratio) so that
+          the performance is enhanced while loading image.
+        </p>
+        <div class="example-container">
+          <img src="https://picsum.photos/200 " alt="image"
+            srcset="https://picsum.photos/300/300 1x,ttps://picsum.photos/300/300 2x ">
+        </div>
+        <iframe src="https://carbon.now.sh/embed/06lf8pwJKbFYudOziNXQ" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Resolution Switching</h2>
+        <p>
+          Resolution Switching serves images based on the viewport size of the device.
+        </p>
+        <div class="example-container">
+          <img src="https://picsum.photos/300/200" alt="image" srcset="https://picsum.photos/200/200 200w,
+                             https://picsum.photos/300/200 300w,
+                             https://picsum.photos/400/200 400w"
+            sizes="(max-width:600px) 200px,(max-width:900px) 300px, 400px">
+
+        </div>
+        <iframe src="https://carbon.now.sh/embed/BYxao4dbhfMrOgnCmVeO" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Art Direction</h2>
+        <p>
+          In Art Direction technique the image is displayed according the mode(landscape or portrait).
+        </p>
+        <div class="example-container">
+          <picture>
+            <source srcset="https://picsum.photos/200/400" media="(max-width:600px)">
+            <img src="https://picsum.photos/400/200" alt="" srcset="https://picsum.photos/400/200">
+          </picture>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/ZLiYhcXdbSinp4SipybB" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        <h2>Round image</h2>
+        <div class="example-container">
+          <img src="https://picsum.photos/150" alt="" class="image-round">
+
+        </div>
+        <iframe src="https://carbon.now.sh/embed/SeZNaZNfODGNCjZusWZz" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+      </section>
+      <section id="input">
+        <h1>Input</h1>
+        <h2>Input text</h2>
+        <div class="example-container">
+          <label for="username">
+            Username
+            <br>
+            <input class="input" type="text" placeholder="Enter Username">
+          </label>
+        </div>
+        <h2>Input with error message</h2>
+        <div class="example-container">
+          <div class="invalid-input">
+            <label for="password">
+              Password <i class="fas fa-times-circle"></i>
+              <br>
+              <input class="input" type="password" placeholder="Enter Password">
+            </label>
+            <p>Invalid password. Try again</p>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/e6n7uQRmEiPtfvI4JssA" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+        <h2>Input with success message</h2>
+        <div class="example-container">
+          <div class="valid-input">
+            <label for="password">
+              Password <i class="fas fa-check-circle"></i>
+              <br>
+              <input class="input" type="password" value="12345678" placeholder="Enter Password">
+            </label>
+            <p>Valid password</p>
+          </div>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/tFvOq047tutZZneLOVlr" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+      </section>
         </main>
     </div>
+
 </body>
+
 </html>
