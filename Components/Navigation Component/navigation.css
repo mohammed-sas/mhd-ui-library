@@ -1,0 +1,17 @@
+@import url('../../component.css');
+
+.nav-bar{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1.4rem;
+}
+.nav-links ul li{
+    cursor: pointer;
+}
