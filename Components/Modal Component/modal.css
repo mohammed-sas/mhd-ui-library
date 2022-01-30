@@ -1,0 +1,28 @@
+@import url('../../component.css');
+.modal-container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    background-color: rgb(255 255 255 / 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.modal{
+    display: flex;
+    padding: 1rem;
+    row-gap: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.modal-action-btn{
+    display: flex;
+    justify-content: flex-end;
+}
