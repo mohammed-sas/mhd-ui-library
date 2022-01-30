@@ -1,0 +1,36 @@
+@import url('../../component.css');
+.input{
+    background: var(--color-white);
+    border: none;
+    padding: 5px;
+    color: var(--black);
+    font-size: 1.4rem;
+}
+label{
+    font-size: 1.4rem;
+}
+.invalid-input label i, .invalid-input label{
+    color: var(--red-600);
+    font-size: 1.4rem;
+}
+.invalid-input label input{
+    margin: 5px 0;
+}
+.invalid-input p{
+    color: var(--red-600);
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
+
+.valid-input label i, .valid-input label{
+    color: var(--green-700);
+    font-size: 1.4rem;
+}
+.valid-input label input{
+    margin: 5px 0;
+}
+.valid-input p{
+    color: var(--green-700);
+    font-size: 1.4rem;
+    margin: 5px 0;
+}
