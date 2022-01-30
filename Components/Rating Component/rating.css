@@ -1,0 +1,11 @@
+.rating-container{
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.hover{
+    color: #fde047;
+}
+.rating-active{
+    color: #eab308;
+}
