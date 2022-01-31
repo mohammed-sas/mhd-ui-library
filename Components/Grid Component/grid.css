@@ -1,0 +1,39 @@
+.grid-col-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-flow:row;
+}
+
+.grid-holy-grail{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    gap: 1rem;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header header header header header"
+                         "sidebar main  main    main  main   ad"
+                         "footer  footer footer footer footer footer";
+}
+
+.grid-holy-grail>*{
+    border:2px solid #7e22ce;
+    background-color: #d8b4fe;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+}
+.grid-header{
+    grid-area: header;
+}
+.grid-sidebar{
+    grid-area: sidebar;
+}
+.grid-ad{
+    grid-area: ad;
+}
+.grid-main{
+    grid-area: main;
+    height: 35rem;
+}
+.grid-footer{
+    grid-area: footer;
+}
