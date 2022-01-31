@@ -35,7 +35,7 @@ stars.forEach((star,index)=>{
                
             }
         })
-        rating=index+1;
+        let rating=index+1;
         outputDiv.innerHTML=`Rating: ${rating}/5`;
     })
    
