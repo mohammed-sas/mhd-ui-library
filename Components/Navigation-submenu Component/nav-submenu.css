@@ -41,3 +41,7 @@
 .submenu-items>li:hover{
     background: #3d3a41;
 }
+
+.display-flex{
+    display: flex;
+}
