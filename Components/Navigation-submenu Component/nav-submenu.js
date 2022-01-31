@@ -1,6 +1,4 @@
 const subMenuBtns = document.querySelectorAll('.submenu-links>li');
-const subMenuLists = document.querySelectorAll('.submenu-items');
-const subMenuLinks = document.querySelectorAll('.submenu-links');
 let isOpen=false;
 subMenuBtns.forEach(btn=>{
     btn.addEventListener('click',()=>{
