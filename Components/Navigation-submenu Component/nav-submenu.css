@@ -1,0 +1,43 @@
+.nav-submenu-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+
+.bg-grey{
+    background: #27242d
+}
+.nav-submenu-bar .nav-links{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu-links ul{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+.submenu-links>li{
+    position: relative;
+}
+
+
+.submenu-items{
+    background: #27242d;
+    position: absolute;
+    top:4rem;
+    width: 10rem;
+}
+
+.submenu-items>li{
+    background: #27242d;
+    padding: 5px;
+}
+
+.submenu-items>li:hover{
+    background: #3d3a41;
+}
