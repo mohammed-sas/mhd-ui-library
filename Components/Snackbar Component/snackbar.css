@@ -1,0 +1,16 @@
+.snackbar-container{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50rem;
+    padding: 1rem;
+}
+.snackbar-container p{
+    background-color: #1f2937;
+}
