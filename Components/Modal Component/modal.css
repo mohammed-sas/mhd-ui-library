@@ -1,4 +1,6 @@
-@import url('../../component.css');
+html{
+    font-size: 62.5%;
+}
 .modal-container{
     position: absolute;
     justify-content: center;

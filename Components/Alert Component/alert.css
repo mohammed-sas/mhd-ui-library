@@ -1,4 +1,6 @@
-@import url('../../component.css');
+html{
+    font-size: 62.5%;
+}
 .alert{
     height: 4rem;
     width: 30rem;

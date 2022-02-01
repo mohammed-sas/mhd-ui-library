@@ -1,4 +1,6 @@
-@import url('../../component.css');
+html{
+    font-size: 62.5%;
+}
 .badge{
     font-size: 3rem;
     width: 4rem;

@@ -1,4 +1,6 @@
-@import url('../../component.css');
+html{
+    font-size: 62.5%;
+}
 
 ul li,ol li{
     font-size: 1.4rem;

@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 .grid-col-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);

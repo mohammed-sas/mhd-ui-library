@@ -1,4 +1,6 @@
-@import url('../../component.css');
+html{
+    font-size: 62.5%;
+}
 .btn{
     padding:1.2rem 2rem;
     color: var(--color-white);

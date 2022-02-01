@@ -1,4 +1,6 @@
-@import url('../../main.css');
+html{
+    font-size: 62.5%;
+}
 .slider{
     padding: 2rem;
 }

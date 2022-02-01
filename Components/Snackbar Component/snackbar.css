@@ -1,3 +1,7 @@
+
+html{
+    font-size: 62.5%;
+}
 .snackbar-container{
     display: none;
     justify-content: space-around;
