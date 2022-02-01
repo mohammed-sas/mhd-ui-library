@@ -6,7 +6,7 @@ html{
     color: var(--color-white);
     border-radius: 1rem;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     cursor: pointer;
     margin:0 5px;
 }
