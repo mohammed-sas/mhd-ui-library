@@ -1,4 +1,6 @@
-@import url('../../component.css');
+html{
+    font-size: 62.5%;
+}
 .input{
     background: var(--color-white);
     border: none;
