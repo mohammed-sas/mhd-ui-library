@@ -1,0 +1,37 @@
+@import url('../../main.css');
+.slider{
+    padding: 2rem;
+}
+
+.range-wrap{
+    position: relative;
+    height: 10rem;
+    width: 30%;
+    
+}
+.range{
+    width: 100%;
+}
+.bubble{
+    position: absolute;
+    left: 50%;
+    background: var(--purple-600);
+    color: var(--color-white);
+    width: 2.5rem;
+    height: 2.5rem;
+    color: white;
+    transform: translateX(-50%);
+    top:22%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bubble::after{
+    content: '';
+    position: absolute;
+    border-bottom: 5px solid var(--purple-600);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top:-5px;
+    left: 8px;
+}
