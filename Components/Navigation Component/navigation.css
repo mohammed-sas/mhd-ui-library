@@ -1,7 +1,9 @@
 html{
     font-size: 62.5%;
 }
-
+img{
+    max-inline-size: 100%;
+}
 .nav-bar{
     height: auto;
     display: flex;
@@ -10,6 +12,14 @@ html{
     width: 100%;
     padding: 1rem;
     justify-content: space-around;
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+}
+.nav-brand img{
+    width: 4rem;
+    height: 4rem;
 }
 .nav-links{
     width: 24rem;
