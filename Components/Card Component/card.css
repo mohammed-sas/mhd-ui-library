@@ -58,12 +58,11 @@ html{
 .icon-btn{
     border: none;
     padding: 1rem;
-    font-size: 1.4rem;
     background: none;
     
 }
 .icon-btn>i{
-    font-size: 1.4rem;
+    font-size: 2rem;
     color: #b3b3b3;
 }
 
