@@ -7,7 +7,7 @@ html{
 
 .range-wrap{
     position: relative;
-    height: 10rem;
+    height: 5rem;
     width: 100%;
     
 }
@@ -23,7 +23,7 @@ html{
     height: 2.5rem;
     color: white;
     transform: translateX(-50%);
-    top:22%;
+    top:2.5rem;
     text-align: center;
     border-radius: 5px;
 }
