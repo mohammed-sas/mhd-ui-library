@@ -58,7 +58,8 @@ html{
 .icon-btn{
     border: none;
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    background: none;
 }
 .padding-l-r-16-b-5{
     padding: 5px 16px;
