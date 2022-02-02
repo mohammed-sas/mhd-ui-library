@@ -58,9 +58,20 @@ html{
 .icon-btn{
     border: none;
     padding: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     background: none;
+    
 }
+.icon-btn>i{
+    font-size: 1.4rem;
+    color: #b3b3b3;
+}
+
+.icon-btn i:hover{
+    color: #dc2626;
+}
+
+
 .padding-l-r-16-b-5{
     padding: 5px 16px;
 }
