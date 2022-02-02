@@ -105,21 +105,15 @@ html{
       border-top-right-radius: 0;
   }
 /* variant horizontal image and text */
-.card-horizontal-text-img{
-    display: block;
+.horizontal-card{
+    display: flex;
+    flex-flow: row nowrap;
 }
-.card-horizontal-text-img  img{
+.horizontal-card .card-image-basic img{
     width: 11rem;
     height: 11rem;
-}
-.card-horizontal-text-img .card-image-basic{
-    display: inline-block;
-    width: fit-content;
-}
-.card-horizontal-text-img .card-heading{
-    display: inline-block;
-    width: fit-content;
-    vertical-align: top;
+    border-top-left-radius:0;
+      border-top-right-radius: 0;
 }
 /* dismiss btn */
 .btn-dismiss{
