@@ -2,8 +2,8 @@ html{
     font-size: 62.5%;
 }
 .badge{
-    font-size: 3rem;
-    width: 4rem;
+    font-size: 2rem;
+    width: 3.2rem;
     position: relative;
 }
 .badge-number{

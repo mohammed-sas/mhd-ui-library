@@ -348,13 +348,15 @@
         </iframe>
         <h2>Horizontal Card</h2>
         <div class="example-container">
-          <div class="card-container card-horizontal-text-img bg-white">
-            <div class="card-image-basic">
-              <img src="./images/maxim-berg-6-NP_CdNqtU-unsplash.jpg" alt="" />
-            </div>
-            <div class="card-heading">
-              <div class="padding-l-r-16-b-5 heading">3D render</div>
-              <div class="padding-l-r-16-b-5 sub-heading">by Maxim Berg</div>
+          <div class="card-container bg-white">
+            <div class="horizontal-card bg-white">
+              <div class="card-image-basic">
+                <img src="./images/maxim-berg-6-NP_CdNqtU-unsplash.jpg" alt="" />
+              </div>
+              <div class="card-heading bg-white">
+                <div class="padding-l-r-16-b-5 heading">3D render</div>
+                <div class="padding-l-r-16-b-5 sub-heading">by Maxim Berg</div>
+              </div>
             </div>
             <div class="card-typography fluid-y">
               <div class="card-body padding-l-r-16-b-5 display-none">
@@ -368,7 +370,7 @@
                 <button class="primary-btn-card">BOOKMARK</button>
               </div>
               <div class="footer-icons fluid-x">
-                <button class="icon-btn"><i class="far fa-heart"></i></button>
+                <button class="icon-btn"><i class="fas fa-heart"></i></button>
                 <button class="icon-btn"><i class="fas fa-share-alt"></i></button>
                 <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
               </div>
@@ -622,16 +624,33 @@
         <div class="example-container">
           <div class="nav-bar">
             <div class="nav-brand">
-              <img src="./images/MHD.png" alt="">
+                 <img src="./images/MHD.png" alt="" srcset="">
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search...">
             </div>
             <div class="nav-links">
               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><button class="btn btn-primary">Login</button></li>
+                <li>
+                    <div class="badge">
+                        <i class="far fa-heart"></i>
+                        <div class="badge-number"><span>5</span></div>
+                     </div>
+                </li>
+                <li>
+                    <div class="display-flex align-items">
+                        <div class="badge">
+                            <i class="fas fa-shopping-cart"></i>
+                            <div class="badge-number"><span>5</span></div>
+                         </div>
+                         <p>Cart</p>
+                    </div>
+                </li>
               </ul>
             </div>
-          </div>
+        </div>
         </div>
         <iframe src="https://carbon.now.sh/embed/U7QHnYh5V9Re3WVPlbNr" sandbox="allow-scripts allow-same-origin">
         </iframe>
