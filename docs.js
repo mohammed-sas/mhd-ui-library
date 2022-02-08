@@ -1,7 +1,7 @@
 const dropDownBtn = document.querySelector('.sidebar-btn');
 const dropDownList = document.querySelector('.sidebar-list');
 const sectionsAnchor = document.querySelectorAll('.sidebar-list span a');
-
+const floatingBtn = document.querySelector('.doc-floating-btn');
 
 dropDownBtn.addEventListener('click',()=>{
         dropDownList.style.display='flex';
@@ -29,4 +29,13 @@ sectionsAnchor.forEach(link=>{
             behavior:'smooth',
         })
 })
+})
+
+floatingBtn.addEventListener('click',(e)=>{
+    e.preventDefault();
+    let query = e.target.getAttribute('data-href');  
+    let destination = document.querySelector(query);
+    destination.scrollIntoView({
+        behavior:'smooth',
+    })
 })

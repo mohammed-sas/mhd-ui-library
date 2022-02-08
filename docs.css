@@ -61,7 +61,9 @@ iframe {
     margin: 1rem 0;
 
 }
-
+.iframe-h-10{
+    height: 10rem;
+}
 nav,
 aside,
 main {
@@ -158,6 +160,18 @@ aside div span a {
     border-radius: 50%;
 }
 
+/* doc floating btb */
+.doc-floating-btn{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    right: 1rem;
+    bottom:1rem;
+}
+.doc-floating-btn a{
+    text-decoration: none;
+    background: inherit;
+}
 @media only screen and (max-width:900px) {
     .docs-container {
         display: grid;
