@@ -3,8 +3,10 @@ const dropDownList = document.querySelector('.sidebar-list');
 const sectionsAnchor = document.querySelectorAll('.sidebar-list span a');
 const floatingBtn = document.querySelector('.doc-floating-btn');
 
+let open=false;
 dropDownBtn.addEventListener('click',()=>{
-        dropDownList.style.display='flex';
+        open===false ? dropDownList.style.display='flex' : dropDownList.style.display='none';
+        open = !open;
 })
 window.addEventListener('resize',()=>{
     if(window.innerWidth > 900){
