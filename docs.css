@@ -1,167 +1,206 @@
-
-html{
+html {
     font-size: 62.5%;
 }
-*{
-    background:var(--black);
-    color:var(--color-white);
+
+* {
+    background: var(--black);
+    color: var(--color-white);
 }
-img{
+
+img {
     max-inline-size: 100%;
 }
+
 /* typography */
-h1{
+h1 {
     font-size: 3.2rem;
     margin: 1rem 0;
 }
-h2{
+
+h2 {
     font-size: 2.4rem;
     margin: 1rem 0;
 }
-h3{
+
+h3 {
     font-size: 1.8rem;
     margin: 5px 0;
 }
 
-p{
+p {
     font-size: 1.6rem;
-    line-height:1.6;
+    line-height: 1.6;
 }
 
-.docs-container{
+.docs-container {
     display: grid;
     height: 100vh;
-    grid-template-columns:20rem 1fr 1fr;
+    grid-template-columns: 20rem 1fr 1fr;
     grid-template-rows: auto 1fr;
-    width: 98vw;
-    
+
+
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
 }
-.example-container{
-    border:1px solid #27272a;
+
+.example-container {
+    border: 1px solid #27272a;
     margin: 1rem 0;
     padding: 1rem;
     width: 95%;
 }
-iframe{
+
+iframe {
     width: 95%;
     height: 16rem;
     border: none;
     background: var(--iframe-bg);
     margin: 1rem 0;
-    
+
 }
-nav,aside,main{
-    border:1px solid var(--gray-500);
+
+nav,
+aside,
+main {
+    border: 1px solid var(--gray-500);
 }
 
 /* main */
-main{
+main {
     grid-column: 2/4;
     display: flex;
     flex-direction: column;
-    padding:0 1rem;
+    padding: 0 1rem;
     overflow-y: scroll;
 }
-main>section{
+
+main>section {
     border-bottom: 2px solid var(--gray-500);
 }
+
 /* nav */
-nav{
-    grid-column:1/4 ;
+nav {
+    grid-column: 1/4;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 98vw;
-    z-index: 1;
     
+    z-index: 1;
+
 }
-.nav-brand{
-    width:5rem;
-    height:5rem;
+
+.nav-brand {
+    width: 5rem;
+    height: 5rem;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     width: 20rem;
     justify-content: space-around;
 }
-.nav-links i{
+
+.nav-links i {
     color: var(--color-white);
     font-size: 2rem;
     cursor: pointer;
 }
+
 /* aside */
-aside{
+aside {
     grid-column: 1/span 1;
     overflow-y: scroll;
     text-align: center;
 }
-.sidebar-header{
+
+.sidebar-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
     transition: all 0.5s ease-in-out;
 }
-aside .sidebar-btn{
+
+aside .sidebar-btn {
     font-size: 1.6rem;
     display: none;
 }
-.sidebar-list{
+
+.sidebar-list {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
+
 aside div span {
     font-size: 1.4rem;
     margin-top: 5px;
     padding: 5px 0;
 }
-aside div span a{
+
+aside div span a {
     text-decoration: none;
 }
 
+.display-flex {
+    display: flex;
+}
+
 /* round-image */
-.image-round{
+.image-round {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
 }
 
-@media only screen and (max-width:600px){
-    html{
-        font-size: 50%;
-    }
-    iframe{
-        display: none;
-    }
-    .docs-container{
+@media only screen and (max-width:900px) {
+    .docs-container {
         display: grid;
         height: 100vh;
-        grid-template-columns:1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto 1fr;
-        grid-template-areas:"navbar navbar"
-                            "sidebar sidebar" 
-                            "main main" ;
+        grid-template-areas: "navbar navbar"
+            "sidebar sidebar"
+            "main main";
     }
-    nav{
+
+    nav {
         grid-area: navbar;
     }
-    main{
+
+    main {
         grid-area: main;
     }
-    aside{
+
+    aside {
         grid-area: sidebar;
     }
-    .sidebar-header i{
+
+    .sidebar-header i {
         display: block;
+        cursor: pointer;
     }
-    .sidebar-list {
+}
+
+@media only screen and (max-width:600px) {
+    html {
+        font-size: 50%;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .js-snippet-header {
+        display: none;
+    }
+
+    .grid-col-2 {
         display: none;
     }
 }
