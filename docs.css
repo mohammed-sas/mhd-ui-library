@@ -210,6 +210,7 @@ aside div span a {
         display: block;
         cursor: pointer;
     }
+
 }
 
 @media only screen and (max-width:600px) {

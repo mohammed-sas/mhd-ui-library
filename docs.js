@@ -4,18 +4,26 @@ const sectionsAnchor = document.querySelectorAll('.sidebar-list span a');
 const floatingBtn = document.querySelector('.doc-floating-btn');
 
 let open=false;
+const debounce=(fn,delay)=>{
+    let id;
+    return (...args)=>{
+        id = setTimeout(()=>fn(...args),delay);
+    }
+    
+}
 dropDownBtn.addEventListener('click',()=>{
         open===false ? dropDownList.style.display='flex' : dropDownList.style.display='none';
         open = !open;
 })
-window.addEventListener('resize',()=>{
+window.addEventListener('resize',debounce(()=>{
+    console.log('hi');
     if(window.innerWidth > 900){
         dropDownList.style.display='flex';
     }
     if(window.innerWidth < 900){
         dropDownList.style.display='none';
     }
-})
+},300))
 dropDownList.addEventListener('click',()=>{
     if(window.innerWidth < 900){
         dropDownList.style.display='none';
