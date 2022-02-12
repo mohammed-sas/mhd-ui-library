@@ -17,12 +17,12 @@
 
 
 :root{
-    --color-white: white;
+    --color-white: #ffffff;
     --gray-300:#d1d5db;
     --gray-500 : #6b7280;
     --sky-500:#0ea5e9;
     font-family: 'Montserrat', sans-serif;
-    --black:black;
+    --black:#121212;
     --teal-400:#2dd4bf;
     --purple-400:#c084fc;
     --purple-300:#d8b4fe;
