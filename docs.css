@@ -138,11 +138,22 @@ aside .sidebar-btn {
     justify-content: flex-start;
     align-items: center;
 }
-
+.sidebar-list>span:hover{
+    outline: 1px solid var(--purple-600);
+    border-radius: 1rem;
+}
+.sidebar-list>span a{
+    display: inline-block;
+    width: 15rem;
+    padding: 1rem;
+}
+.active-link{
+    color:#c084fc;
+    font-weight: bolder;
+}
 aside div span {
     font-size: 1.4rem;
     margin-top: 5px;
-    padding: 5px 0;
 }
 
 aside div span a {

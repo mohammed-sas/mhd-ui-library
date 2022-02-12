@@ -25,6 +25,10 @@ dropDownList.addEventListener('click',()=>{
 sectionsAnchor.forEach(link=>{
     link.addEventListener('click',(e)=>{
         e.preventDefault(); 
+        sectionsAnchor.forEach(link=>{
+            link.classList.remove('active-link');
+        })
+        link.classList.add('active-link');
         let query = link.getAttribute('href');
         let destination = document.querySelector(query);
         destination.scrollIntoView({
