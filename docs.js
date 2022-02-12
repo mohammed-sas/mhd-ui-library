@@ -17,7 +17,6 @@ dropDownBtn.addEventListener('click',()=>{
         open = !open;
 })
 window.addEventListener('resize',debounce(()=>{
-    console.log('hi');
     if(window.innerWidth > 900){
         dropDownList.style.display='flex';
     }
