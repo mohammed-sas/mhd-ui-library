@@ -7,6 +7,7 @@ let open=false;
 const debounce=(fn,delay)=>{
     let id;
     return (...args)=>{
+        clearTimeout(id);
         id = setTimeout(()=>fn(...args),delay);
     }
     
