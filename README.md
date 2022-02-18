@@ -11,7 +11,7 @@ MHD UI is a light weight beginner-friendly CSS library that helps you build your
 Install MHD-UI component library by adding the external CSS links.
 
 ```bash
-    <link rel="stylesheet" href="mhd-ui.netlify.app/main.css">
+    <link rel="stylesheet" href="mhd-ui-dev.netlify.app/main.css">
 ```
     
 ## Demo
@@ -20,7 +20,7 @@ Insert gif
 
 
 ## Components
-1.Avatar\
+1.[Avatar](https://mhd-ui-dev.netlify.app/docs#avatar)\
 2.Alert\
 3.Badge\
 4.Button\
