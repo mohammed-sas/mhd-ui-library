@@ -210,6 +210,9 @@ aside div span a {
         display: block;
         cursor: pointer;
     }
+    .sidebar-list{
+        display: none;
+    }
 
 }
 
