@@ -16,7 +16,7 @@ Install MHD-UI component library by adding the external CSS links.
     
 ## Demo
 
-![CL_1](https://user-images.githubusercontent.com/89216938/154794122-6ef86a35-3d4a-4a99-8666-a318f06fb4f3.gif)
+![CL_1](https://user-images.githubusercontent.com/89216938/154794565-7fac4a21-27e3-4e08-bbf2-8f328cdf65ef.gif)
 
 
 ![CL_2](https://user-images.githubusercontent.com/89216938/154794369-ba58ddd1-07c7-4288-b9c2-f27df26e7a7b.gif)
