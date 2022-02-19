@@ -16,7 +16,11 @@ Install MHD-UI component library by adding the external CSS links.
     
 ## Demo
 
-Insert gif 
+
+![CL_1](https://user-images.githubusercontent.com/89216938/154794739-b8c74cda-e94e-4ea0-bd42-94da612b7b96.gif)
+
+![CL_2](https://user-images.githubusercontent.com/89216938/154794743-9e0f659e-9a11-4da8-bcca-c80a65a11bab.gif)
+
 
 
 ## Components
