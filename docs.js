@@ -53,3 +53,5 @@ floatingBtn.addEventListener('click',(e)=>{
         behavior:'smooth',
     })
 })
+
+
