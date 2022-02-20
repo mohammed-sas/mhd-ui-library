@@ -52,15 +52,17 @@ img{
 .primary-btn-card{
     border: none;
     padding: 2px 1rem;
-    color: var(--teal-400);
+    color: var(--purple-600);
     font-weight: bolder;
     font-size: 1.2rem;
     background: var(--color-white);
+    cursor: pointer;
 }
 .icon-btn{
     border: none;
     padding: 1rem;
     background: none;
+    cursor: pointer;
     
 }
 .icon-btn>i{
@@ -124,6 +126,7 @@ img{
     top: 1rem;
     font-size: 1.6rem;
     background: none;
+    cursor: pointer;
 
 }
 /* footer */
